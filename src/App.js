@@ -28,7 +28,9 @@ export default function App() {
   }, []);
   async function handleLogout() {
     // call the logout function
+    await logout();
     // clear the user in state
+    setCurrentUser('');
   }
 
   return (
