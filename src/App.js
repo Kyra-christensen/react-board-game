@@ -42,7 +42,7 @@ export default function App() {
             currentUser &&
             <>
               <NavLink exact to="/board-games">List</NavLink>
-              <NavLink exact to="/create"></NavLink>
+              <NavLink exact to="/create">Create</NavLink>
               <button onClick={handleLogout}>Logout</button>
             </>
           }
