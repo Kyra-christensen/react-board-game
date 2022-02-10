@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { createGame } from './services/fetch-utils';
+import { useHistory } from 'react-router-dom';
 
 export default function CreatePage() {
   // you'll need the history hook from react-router-dom to do your redirecting in the handleSubmit
