@@ -23,8 +23,9 @@ export default function CreatePage() {
     e.preventDefault();
 
     // create a game
-
+    await createGame(title, genre, designer, description, minPlayers, maxPlayers);
     // use history.push to send the user to the list page
+    history.push('/board-games');
   }
 
   return (
