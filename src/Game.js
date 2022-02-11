@@ -8,7 +8,6 @@ export default function Game({ game }) {
         <h3>{game.title}</h3>
         <p>A {game.genre} game by designer {game.designer}</p>
         <p>for {game.min_players} - {game.max_players} players</p>
-        <p>Description: {game.description}</p>
       </div>
     </Link>
     
